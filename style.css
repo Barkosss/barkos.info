@@ -8,6 +8,17 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    font-size: 30px;
+}
+
+#discord {
+    margin-right: 5px;
+}
+#github {
+    margin-left: 5px;
+}
+
 img {
     margin-top: 10%;
     border-radius: 50%;
@@ -15,7 +26,7 @@ img {
 }
 
 #title-barkos {
-    color: #D5A71C;
+    color: #eb621b;
 }
 
 #title-rang-left {
@@ -32,10 +43,22 @@ img {
 }
 
 button {
-    background-color: #D5A71C;
+    background-color: #103461;
     border: none;
     width: 64px; height: 64px; /* Размеры кнопки */
     border-radius: 50%; /* Радиус скругления */
+}
+
+#button-discord {
+    background-image: url('./assets/discord-mark-blue.png');
+    background-size: cover;
+    margin-right: 5px;
+}
+
+#button-github {
+    background-image: url('/assets/GitHub_Invertocat_Light.png');
+    background-size: cover;
+    margin-left: 5px;
 }
 
 button:hover {
