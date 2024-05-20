@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+}
+
+* {
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 200px;
+}
+
+#title-barkos {
+    color: #D5A71C;
+}
+
+#title-rang-left {
+    color: #D5A71C;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title p {
+    font-size: 25px;
+}
+
+button {
+    background-color: #D5A71C;
+    border: none;
+    width: 64px; height: 64px; /* Размеры кнопки */
+    border-radius: 50%; /* Радиус скругления */
+}
+
+button:hover {
+    opacity: .7;
+}
+
+button:active {
+    opacity: .3;
+}
